@@ -25,6 +25,8 @@ class Header extends React.Component {
     if (mode === 'dark') {
       document.querySelector('body').classList.add('kit__dark')
       window.less.modifyVars(AntDesignDarkTheme)
+    } else {
+      window.less.modifyVars(AntDesignLightTheme)
     }
 
     // init primary color
@@ -253,7 +255,7 @@ class Header extends React.Component {
                             to={item.url}
                             className={`${
                               item.url === activeSubmenu.url ? style.tabs__active : ''
-                            }`}
+                              }`}
                           >
                             {item.title}{' '}
                             {item.count && (
@@ -274,7 +276,7 @@ class Header extends React.Component {
                               to={item.url}
                               className={`btn mr-2 mb-2 ${
                                 item.url === activeItem.url ? 'btn-primary' : 'btn-light'
-                              }`}
+                                }`}
                             >
                               {item.title}
                             </Link>
