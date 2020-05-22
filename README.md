@@ -1,15 +1,15 @@
-### Quick Start ###
+### Clean UI KIT React Preview ###
+https://kit-react.cleanuitemplate.com
 
+### Documentation ###
+Please read documentation here https://docs.cleanuitemplate.com
+
+### Quick Start ###
 * Install node.js: https://nodejs.org​
 * Install yarn package manager: https://yarnpkg.com/​
 * Install node modules by running terminal command `yarn install`
 * Run the app `yarn start`
 * Or build production app `yarn build`
 
-### Documentation ###
-
-Please read documentation here https://docs.cleanuitemplate.com
-
 ### Support ###
-
-Use GitLab Issues section for tracking bugs or write to [support@cleanuitemplate.com](mailto:support@cleanuitemplate.com).
+Use GitHub Issues for tracking bugs and creating new feature requests or write to [support@sellpixels.com](mailto:support@sellpixels.com).

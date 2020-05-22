@@ -1,6 +1,7 @@
 /* eslint-disable */
 import React from 'react'
-import { Comment, Icon, Tooltip, Avatar } from 'antd'
+import { LikeFilled, LikeOutlined } from '@ant-design/icons'
+import { Comment, Tooltip, Avatar } from 'antd'
 import moment from 'moment'
 
 class AntdCommentExample extends React.Component {
@@ -32,21 +33,15 @@ class AntdCommentExample extends React.Component {
     const actions = [
       <span key="comment-basic-like">
         <Tooltip title="Like">
-          <Icon
-            type="like"
-            theme={action === 'liked' ? 'filled' : 'outlined'}
-            onClick={this.like}
-          />
+          {action === 'liked' && <LikeFilled onClick={this.like} />}
+          {action !== 'liked' && <LikeOutlined onClick={this.like} />}
         </Tooltip>
         <span style={{ paddingLeft: 8, cursor: 'auto' }}>{likes}</span>
       </span>,
-      <span key=' key="comment-basic-dislike"'>
+      <span key="comment-basic-dislike">
         <Tooltip title="Dislike">
-          <Icon
-            type="dislike"
-            theme={action === 'disliked' ? 'filled' : 'outlined'}
-            onClick={this.dislike}
-          />
+          {action === 'disliked' && <LikeFilled onClick={this.dislike} />}
+          {action !== 'disliked' && <LikeOutlined onClick={this.dislike} />}
         </Tooltip>
         <span style={{ paddingLeft: 8, cursor: 'auto' }}>{dislikes}</span>
       </span>,

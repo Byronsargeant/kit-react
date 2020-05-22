@@ -45,7 +45,10 @@ class TablesAntdFilterSorter extends React.Component {
         title: 'Name',
         dataIndex: 'name',
         key: 'name',
-        filters: [{ text: 'Joe', value: 'Joe' }, { text: 'Jim', value: 'Jim' }],
+        filters: [
+          { text: 'Joe', value: 'Joe' },
+          { text: 'Jim', value: 'Jim' },
+        ],
         filteredValue: filteredInfo.name || null,
         onFilter: (value, record) => record.name.includes(value),
         sorter: (a, b) => a.name.length - b.name.length,
@@ -62,7 +65,10 @@ class TablesAntdFilterSorter extends React.Component {
         title: 'Address',
         dataIndex: 'address',
         key: 'address',
-        filters: [{ text: 'London', value: 'London' }, { text: 'New York', value: 'New York' }],
+        filters: [
+          { text: 'London', value: 'London' },
+          { text: 'New York', value: 'New York' },
+        ],
         filteredValue: filteredInfo.address || null,
         onFilter: (value, record) => record.address.includes(value),
         sorter: (a, b) => a.address.length - b.address.length,
@@ -83,13 +89,8 @@ class TablesAntdFilterSorter extends React.Component {
             Clear filters and sorters
           </Button>
         </div>
-        <div className="mb-4 kit__utils__scrollTable">
-          <Table
-            columns={columns}
-            dataSource={data}
-            scroll={{ x: '100%' }}
-            onChange={this.handleChange}
-          />
+        <div className="mb-4 kit__utils__table">
+          <Table columns={columns} dataSource={data} onChange={this.handleChange} />
         </div>
       </div>
     )
