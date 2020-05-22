@@ -73,37 +73,3 @@
     background-color: $white !important;
   }
 }
-
-// dark-theme
-[data-kit-theme='dark'] {
-  .text {
-    &-light {
-      color: $dark !important;
-    }
-    &-dark {
-      color: $dark-gray-2 !important;
-    }
-    &-muted {
-      color: $dark-gray-3 !important;
-    }
-  }
-
-  .bg {
-    &-light {
-      background-color: $dark !important;
-    }
-    &-dark {
-      background-color: $dark-gray-1 !important;
-    }
-  }
-
-  .border {
-    border-color: $dark-gray-4 !important;
-    &-top,
-    &-right,
-    &-bottom,
-    &-left {
-      border-color: $dark-gray-4 !important;
-    }
-  }
-}

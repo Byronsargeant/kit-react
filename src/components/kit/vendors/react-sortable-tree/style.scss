@@ -770,31 +770,3 @@
   width: 1em;
   fill: currentColor;
 }
-
-// dark theme
-[data-kit-theme='dark'] {
-  .rst__rowContents {
-    background: $dark-gray-4;
-    border-color: $dark-gray-4;
-  }
-  .rst__moveHandle {
-    background: $dark-gray-3;
-    border-color: $dark-gray-3;
-
-    &:hover {
-      background: $primary;
-    }
-
-    &:before {
-      color: $gray-4;
-    }
-  }
-
-  .rst__lineHalfHorizontalRight::before,
-  .rst__lineFullVertical::after,
-  .rst__lineHalfVerticalTop::after,
-  .rst__lineHalfVerticalBottom::after,
-  .rst__lineChildren::after {
-    background-color: $dark-gray-3;
-  }
-}

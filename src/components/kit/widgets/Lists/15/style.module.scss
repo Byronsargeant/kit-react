@@ -41,13 +41,3 @@
     height: auto;
   }
 }
-
-// dark theme
-[data-kit-theme='dark'] {
-  .item {
-    border-bottom: 1px solid $dark-gray-4;
-    &:last-child {
-      border-bottom: none;
-    }
-  }
-}

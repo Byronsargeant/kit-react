@@ -71,22 +71,3 @@
     border-right: none;
   }
 }
-
-// dark theme
-[data-kit-theme='dark'] {
-  .messageContent {
-    background-color: $dark-gray-5;
-    &:before {
-      border-left-color: $dark-gray-5;
-    }
-  }
-  .message {
-    &.answer {
-      .messageContent {
-        &:before {
-          border-right-color: $dark-gray-5;
-        }
-      }
-    }
-  }
-}

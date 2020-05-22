@@ -29,13 +29,3 @@
     background-color: $gray-1;
   }
 }
-
-// dark theme
-[data-kit-theme='dark'] {
-  .category {
-    &:hover,
-    &.current {
-      background-color: $dark-gray-4;
-    }
-  }
-}

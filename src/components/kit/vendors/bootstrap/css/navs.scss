@@ -125,23 +125,3 @@
     }
   }
 }
-
-// dark theme
-[data-kit-theme='dark'] {
-  .nav-tabs {
-    border-color: $dark-gray-4;
-    &:not(.nav-tabs-line) {
-      .nav-link {
-        &.active,
-        &:hover,
-        &:active,
-        &:focus {
-          color: $primary;
-          background: transparent;
-          border-color: $dark-gray-4;
-          border-bottom-color: $dark-gray-6;
-        }
-      }
-    }
-  }
-}

@@ -97,18 +97,3 @@
     transform: rotate(360deg);
   }
 }
-
-// dark theme
-[data-kit-theme='dark'] {
-  #nprogress {
-    .spinner {
-      color: $white;
-      background: $primary;
-      border-color: $primary;
-      .spinner-icon {
-        border-top-color: $white;
-        border-left-color: $white;
-      }
-    }
-  }
-}

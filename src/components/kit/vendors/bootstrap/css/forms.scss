@@ -122,38 +122,3 @@ span.input-group-addon {
     line-height: 2.2;
   }
 }
-
-// dark theme
-[data-kit-theme='dark'] {
-  input::-webkit-input-placeholder {
-    color: $dark-gray-3 !important;
-  }
-
-  input::-moz-placeholder {
-    color: $dark-gray-3 !important;
-  }
-
-  input:-moz-placeholder {
-    color: $dark-gray-3 !important;
-  }
-
-  input:-ms-input-placeholder {
-    color: $dark-gray-3 !important;
-  }
-
-  .form-control {
-    background: $dark-gray-5;
-    border-color: $dark-gray-4;
-    color: $dark-gray-1;
-  }
-
-  .form-actions {
-    border-top: 1px solid $dark-gray-4;
-  }
-
-  .input-group-text {
-    background: $dark-gray-4;
-    border-color: $dark-gray-4;
-    color: $dark-gray-1;
-  }
-}

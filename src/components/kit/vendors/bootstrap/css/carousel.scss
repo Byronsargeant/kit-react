@@ -11,15 +11,3 @@
     }
   }
 }
-
-// dark theme
-[data-kit-theme='dark'] {
-  .carousel-indicators {
-    li {
-      &.active {
-        opacity: 1;
-        background-color: $primary;
-      }
-    }
-  }
-}

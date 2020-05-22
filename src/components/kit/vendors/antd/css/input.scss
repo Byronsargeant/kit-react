@@ -18,17 +18,3 @@
     }
   }
 }
-
-////////////////////////////////////////////////////////////////////////////////////////////
-// DARK THEME STYLES
-[data-kit-theme='dark'] {
-  .ant-input {
-    &-number {
-      &-handler {
-        &-wrap {
-          background: $dark-gray-3;
-        }
-      }
-    }
-  }
-}

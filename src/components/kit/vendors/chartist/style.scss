@@ -283,13 +283,3 @@
     }
   }
 }
-
-// dark theme
-[data-kit-theme='dark'] {
-  .ct-grid {
-    stroke: $dark-gray-3;
-  }
-  .ct-label {
-    color: $dark-gray-2;
-  }
-}

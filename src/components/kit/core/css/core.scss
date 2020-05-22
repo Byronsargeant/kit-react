@@ -81,34 +81,3 @@ svg {
   padding: rem(3) rem(6);
   border-radius: 4px;
 }
-
-// dark theme
-[data-kit-theme='dark'] {
-  body {
-    background: $dark-gray-5;
-    color: $dark-gray-1;
-  }
-
-  .badge-example {
-    background: $dark-gray-4;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    color: $dark-gray-1;
-  }
-
-  a {
-    color: $dark-gray-1;
-    &:hover,
-    &:active,
-    &:focus {
-      color: $blue;
-      text-decoration: none;
-    }
-  }
-}

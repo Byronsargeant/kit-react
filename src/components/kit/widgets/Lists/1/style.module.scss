@@ -46,10 +46,3 @@
   line-height: rem(40);
   color: $gray-4;
 }
-
-// dark theme
-[data-kit-theme='dark'] {
-  .itemPic {
-    background: $dark-gray-4;
-  }
-}

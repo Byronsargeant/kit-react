@@ -47,17 +47,3 @@
     color: $white;
   }
 }
-
-// dark theme
-[data-kit-theme='dark'] {
-  .badge {
-    &.badge-light {
-      background: $dark;
-      color: $white;
-    }
-    &.badge-dark {
-      background: $light;
-      color: $text;
-    }
-  }
-}

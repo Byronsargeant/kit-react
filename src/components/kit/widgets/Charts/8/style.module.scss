@@ -32,13 +32,3 @@
     padding-right: rem(24);
   }
 }
-
-// dark theme
-[data-kit-theme='dark'] {
-  .textDivider {
-    &::before,
-    &::after {
-      background-color: $dark-gray-4;
-    }
-  }
-}

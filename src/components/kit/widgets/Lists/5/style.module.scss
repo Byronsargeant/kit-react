@@ -86,20 +86,3 @@
     }
   }
 }
-
-// dark theme
-[data-kit-theme='dark'] {
-  .item {
-    border-bottom: 1px solid $dark-gray-4;
-    &:hover {
-      background-color: $dark-gray-5;
-    }
-    &:last-child {
-      border-bottom: none;
-    }
-  }
-  .itemPic {
-    background: $dark-gray-5;
-    border-color: $dark-gray-4;
-  }
-}

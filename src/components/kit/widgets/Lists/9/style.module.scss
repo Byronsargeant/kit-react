@@ -53,10 +53,3 @@
   font-size: rem(18);
   color: $white;
 }
-
-// dark theme
-[data-kit-theme='dark'] {
-  .itemDots {
-    opacity: 0.1;
-  }
-}

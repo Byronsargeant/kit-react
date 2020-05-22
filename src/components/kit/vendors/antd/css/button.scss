@@ -30,28 +30,3 @@
     }
   }
 }
-
-////////////////////////////////////////////////////////////////////////////////////////////
-// DARK THEME STYLES
-[data-kit-theme='dark'] {
-  .ant-btn {
-    &-primary {
-      &:hover,
-      &:active,
-      &:focus {
-        background: lighten($blue-light, 0%) !important;
-        border-color: lighten($blue-light, 0%) !important;
-        color: $white;
-      }
-    }
-    &-danger {
-      &:hover,
-      &:active,
-      &:focus {
-        background: lighten($danger, 10%);
-        border-color: lighten($danger, 10%);
-        color: $white;
-      }
-    }
-  }
-}

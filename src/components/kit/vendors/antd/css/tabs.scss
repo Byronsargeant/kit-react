@@ -98,18 +98,3 @@
     }
   }
 }
-
-////////////////////////////////////////////////////////////////////////////////////////////
-// DARK THEME STYLES
-[data-kit-theme='dark'] {
-  .ant-tabs {
-    .ant-tabs-card-bar {
-      .ant-tabs-tab {
-        background: transparent;
-        &-active {
-          background: $dark-gray-4;
-        }
-      }
-    }
-  }
-}
